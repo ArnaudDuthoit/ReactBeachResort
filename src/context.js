@@ -13,7 +13,6 @@ class RoomProvider extends Component {
     };
 
     //getData
-
     componentDidMount() {
         // this.getData
         let rooms = this.formatData(items);
@@ -46,7 +45,6 @@ class RoomProvider extends Component {
         return room;
 
     };
-
 
     render() {
         return <RoomContext.Provider value={{ ...this.state,
